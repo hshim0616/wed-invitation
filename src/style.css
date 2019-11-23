@@ -1,0 +1,78 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4c4c4c;
+  }
+  
+.icon{
+    width:30px;
+    height:30px;
+}
+
+.full-page{
+    width: 100%;
+}
+
+.contact{
+    float: left;
+    width:50%;
+}
+
+.bgGray{
+    background-color: #f1f3f5;
+    padding: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* gallery css */
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:5px;
+      padding-top:5px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:10px;
+  }
+  
+  .photo-gallery .item {
+    padding:3px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  

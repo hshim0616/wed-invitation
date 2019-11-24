@@ -70,8 +70,8 @@ body, p{
 
 
 .icon{
-    width:25px;
-    height:25px;
+    width:22px;
+    height:22px;
 }
 
 .divider{
@@ -90,7 +90,7 @@ body, p{
 .bgGray{
     background-color: #f1f3f5;
     padding: 30px;
-    height: 200px;
+    margin: auto;
 }
 
 .center{

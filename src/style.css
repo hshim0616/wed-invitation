@@ -16,10 +16,11 @@ body, p{
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   h2 {
+    font-size: 18px;
     line-height: 24px;
   }
 
@@ -64,6 +65,10 @@ body, p{
 .icon{
     width:25px;
     height:25px;
+}
+
+.divider{
+  width: 100px;
 }
 
 .full-page{

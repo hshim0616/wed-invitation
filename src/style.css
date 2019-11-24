@@ -80,6 +80,9 @@ body, p{
 
 .full-page{
     width: 100%;
+    max-width: 900px;
+    object-fit: cover;
+    object-position: center; 
 }
 
 .contact{

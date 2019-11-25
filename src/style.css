@@ -129,7 +129,16 @@ body, p{
 
 @media (max-width:767px) {
   .img-fluid{
-    max-height: 107px;
+    max-height: 112px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center; 
+  }
+}
+
+@media (max-width:500px) {
+  .img-fluid{
+    max-height: 67px;
     width: 100%;
     object-fit: cover;
     object-position: center; 

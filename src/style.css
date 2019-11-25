@@ -180,6 +180,9 @@ body, p{
   .photo-gallery .photos {
     padding-bottom:10px;
   }
+  .photo-gallery .photos:before {
+    display: none;
+  }
 
   .photo-gallery .item {
     padding:3px;
